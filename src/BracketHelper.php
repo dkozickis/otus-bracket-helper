@@ -15,7 +15,6 @@ namespace Dkozickis;
  * Class BracketHelper.
  *
  * Первый и едниственный класс для работы со скобками.
- * Передайте стринг в isValid и радуйтесь жизни.
  */
 class BracketHelper
 {
@@ -96,6 +95,6 @@ class BracketHelper
     {
         // Тут preg_match вернет false если есть невалидные симолы
         // Надо инвертировать это при помощи "!"
-        return !preg_match("/^([()\r\n\t\s]+)$/", $string);
+        return !preg_match("/^([()\r\n\t\s]*)$/", $string);
     }
 }

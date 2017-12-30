@@ -55,6 +55,7 @@ class BracketHelperTest extends \PHPUnit\Framework\TestCase
     {
         return [
             ['(())', true],
+            ['', true],
             ['((
             ))', true],
             ['((', false],

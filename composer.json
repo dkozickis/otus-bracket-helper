@@ -2,7 +2,7 @@
   "name": "dkozickis/otus-bracket-helper",
   "description": "Bracket-helper for PHP Course @ otus.ru",
   "type": "project",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "require-dev": {
     "phpunit/phpunit": "^6.5",
     "friendsofphp/php-cs-fixer": "~2.2"

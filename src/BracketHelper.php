@@ -11,6 +11,12 @@
 
 namespace Dkozickis;
 
+/**
+ * Class BracketHelper.
+ *
+ * Первый и едниственный класс для работы со скобками.
+ * Передайте стринг в isValid и радуйтесь жизни.
+ */
 class BracketHelper
 {
     // Используем константы, немного легче читаемо в if/elseif в isBalanced()
